@@ -1,0 +1,10 @@
+.profDisplay{
+display: flex;
+width: 80%;
+margin: auto;
+text-align: left;
+margin-top: 100px;
+}
+.profDetail{
+    width: 20%;
+}
