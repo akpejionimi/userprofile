@@ -3,12 +3,10 @@ import React from "react";
 import './Profile.css'
 
 const Profile = (props) => {
-    if (props === null) {
-        return null
-    } else {
+    
         return (
             <div className="profDisplay">
-            <div>
+            <div className="prof">
                 <h1>{props.details.name}</h1>
                 <h2>{props.details.role}</h2>
                 <p>{props.details.Testimony}</p>
@@ -18,7 +16,7 @@ const Profile = (props) => {
                </div>
             </div>
         )
-    }       
+           
     // return (
     //     <p>welcome to my profile</p>
     // )

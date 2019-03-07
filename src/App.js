@@ -22,6 +22,7 @@ class App extends Component {
   submitClicked = (e) => {
     e.preventDefault()
     console.log("clicked");
+
   }
 
 
