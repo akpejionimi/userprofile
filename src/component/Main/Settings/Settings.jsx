@@ -5,7 +5,7 @@ import {withRouter} from 'react-router-dom'
 const Settings = (props) => {
     return (
       <div className="Settings">
-      {!props.isAuth && props.history.push("/login")}
+      {props.isAuth && props.history.push("/login")}
         <h3>Edit your profile details here</h3>
       </div>
     );

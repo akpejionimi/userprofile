@@ -10,10 +10,8 @@ class App extends Component {
     data: data,
     details: data[0],
     isAuth: false,
-    contentText: "",
-    passinput: "",
-    username: null,
-    password: null,
+    username: "",
+    password: "",
     error: ""
   }
   
