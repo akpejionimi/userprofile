@@ -1,11 +1,12 @@
 import React from "react";
-
+import {withRouter} from "react-router-dom";
 import './Profile.css'
 
 const Profile = (props) => {
     
         return (
             <div className="profDisplay">
+            {!props.isAuth && props.history.push("/login")}
             <div className="prof">
                 <h1>{props.details.name}</h1>
                 <h2>{props.details.role}</h2>
@@ -21,4 +22,4 @@ const Profile = (props) => {
     //     <p>welcome to my profile</p>
     // )
 }
-export default Profile;
+export default withRouter(Profile);
