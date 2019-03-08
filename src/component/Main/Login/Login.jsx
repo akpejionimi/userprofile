@@ -12,7 +12,7 @@ const Login = (props) => {
                 props.isAuth ?
 
                     (
-                        props.history.push("/profile")
+                        props.history.push("/")
                     )
                     :
                     (

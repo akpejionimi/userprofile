@@ -16,17 +16,17 @@ const Main = (props) => {
           handleChange={props.handleChange}
           contentChange={props.contentChange}
           submitClicked={props.submitClicked}
-          IsAuth={props.IsAuth}
+          isAuth={props.isAuth}
           user={props.user}
           pass={props.pass}
           error={props.error}
         />)} />
         <Route path="/profile" render={() => <Profile
           details={props.details}
-          IsAuth={props.IsAuth}
+          isAuth={props.isAuth}
         />} />
         <Route path="/settings" render={() => <Settings 
-        IsAuth={props.IsAuth}
+        isAuth={props.isAuth}
         />}
          />
         <Route path="/" component={Home} />

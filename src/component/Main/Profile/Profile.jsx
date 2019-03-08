@@ -7,7 +7,7 @@ const Profile = (props) => {
         return (
             <>
             {
-                props.isAuth ? (props.history.push("/login")
+                !props.isAuth ? (props.history.push("/login")
                 )
                 :
                 <div className="profDisplay">
