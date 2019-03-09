@@ -15,6 +15,7 @@ const Navbar = (props) =>{
            <div className="menu">
             <Link to="/profile"><li>Profile</li></Link>
             <Link to="/settings"><li>Settings</li></Link>
+            <Link to="/login"><li onClick={props.logout}>logout</li></Link>
            </div>
         </ul>
          </div> 

@@ -17,7 +17,7 @@ class App extends Component {
   
   submitClicked = (e) => {
    
-    if(this.state.username==="admin" &&
+    if(this.state.username==="Admin" &&
        this.state.password=== "pass"){
          this.setState ({
            isAuth:true
@@ -52,13 +52,19 @@ class App extends Component {
     console.log(this.state.password)
 
   }
+  logout= () =>
+            this.setState({
+              isAuth: false
+            })
 
   
   render() {
     return (
       <div className="App">
         <div className='Nav'>
-          <Navbar isAuth={this.state.isAuth} />
+          <Navbar isAuth={this.state.isAuth}
+          logout={this.logout}
+          />
           <Main
             details={this.state.details}
             handleChange={this.handleChange}
