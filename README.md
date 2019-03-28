@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Basic Authentitcation react app. 
+codesandbox Url: https://codesandbox.io/s/github/akpejionimi/userprofile
+![Screenshot (27)](https://user-images.githubusercontent.com/46995138/55124617-1fb3aa80-5107-11e9-82fb-acfc37bdbd1f.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/46995138/55124621-22ae9b00-5107-11e9-9f09-52abf3bae332.png)
 
 ## Available Scripts
 
@@ -66,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
